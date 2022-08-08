@@ -1,0 +1,32 @@
+@media only screen and (max-width: 720px)
+{
+    #image {
+        grid-column: 1/5;
+        grid-row: 3;
+    }
+    #info {
+        grid-column: 1/5;
+        grid-row: 2;
+        text-align: center;
+    }
+    #container {
+        display:block;
+    }
+    #container > video, img {
+        float:none;
+        width: 100%;
+    }
+    #container > p {
+        text-align: center;
+        float:none;
+    }
+    #container > .left {
+        margin-left: 0;
+    }
+    #container > .right {
+        margin-right: 0;
+    }
+    #banner {
+      width: 100%;
+    }
+}
